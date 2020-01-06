@@ -125,7 +125,10 @@ import Vue from 'vue'
 import VueHotkeys from 'vue2-hotkeys'
 
 Vue.use(VueHotkeys, {
-  '9': 57 // the key code of character '9'
+  name: 'hotkeys',
+  alias: {
+    '9': 57 // the key code of character '9'
+  }
 })
 ```
 
